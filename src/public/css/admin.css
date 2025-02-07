@@ -1,0 +1,141 @@
+.admin__title {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.61px;
+    color: #8B7969;
+}
+
+.admin__content {
+    max-width: 1183px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+.search__form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.search__form-item {
+    width: 80%;
+    height: 50px;
+}
+
+.search__name {
+    width: 347.47px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    color: #BEB1A6;
+    background-color: #fbfbfb;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.85px;
+
+}
+
+
+.search__jender {
+    margin-left: 30px;
+    width: 102.48px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.15px;
+}
+
+.search__category {
+    margin-left: 30px;
+    width: 223.04px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.15px;
+}
+
+.search__date {
+    margin-left: 30px;
+    width: 148.87px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    color: #8B7969;
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.15px;
+}
+
+.search__button {
+
+    width: 102.48px;
+    height: 50px;
+}
+
+.search__button--submit {
+    width: 100%;
+    height: 100%;
+    background-color: #82756A;
+    color: #fff;
+    border: 1px solid #8B7969;
+    text-align: center;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.reset__button {
+    margin-left: 15px;
+    width: 102.48px;
+    height: 50px;
+}
+
+.reset__button--submit {
+    width: 100%;
+    height: 100%;
+    background-color: #D9C6B5;
+    color: #fff;
+    border: 1px solid #D9C6B5;
+    text-align: center;
+    font-family: "Gorditas", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.45px;
+}
+
+.select_wrapper {
+    position: relative;
+}
+
+.select_wrapper::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #E0DFDE;
+    border-bottom: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
